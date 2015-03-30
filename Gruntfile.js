@@ -44,7 +44,7 @@ module.exports = function(grunt) {
 
   require('load-grunt-tasks')(grunt, {
     pattern: 'grunt-*',
-    scope: 'devDependencies'
+    scope: 'dependencies'
   });
 
   grunt.registerTask('clean', 'remove compiled files', function () {

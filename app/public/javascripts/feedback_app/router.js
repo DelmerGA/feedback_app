@@ -1,9 +1,11 @@
 (function () {
   'use strict';
   this.main.config(["$routeProvider", function ($routeProvider) {
+    var prefix = "views/";
+
     $routeProvider.
       when("/", {
-        template: "Hello World"
+        templateUrl: "views/main/index.html"
       })
   }]);
 }).call(require('./app.js'));
